@@ -10,11 +10,11 @@ We used 16K images for trainand 300 images for validation.
 
 ## SRGAN + Sliding Window
 SRGAN is affected by the upscaling factor.  
-For example, if the size of the super-resolution image is 384*384 and the upscaling factor is 4, the size of the input image must be 96*96 to obtain good results.  
+For example, if the size of the super-resolution image is 384\*384 and the upscaling factor is 4, the size of the input image must be 96\*96 to obtain good results.  
 To achieve super-resolution regardless of the input image size, the following operations are performed.  
 ```
 1. Divide the input image into patches.
-2. Use each patch as input to SRG
+2. Use each patch as input to the SRGAN model
 3. Combine the output of SRGAN for each patch again.
 ```
 ![image](https://github.com/byunghyun23/super-resolution/blob/main/assets/fig1.png)
