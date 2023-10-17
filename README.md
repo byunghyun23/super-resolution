@@ -1,7 +1,7 @@
-# Super-Resolution Based on SRGAN and Sliding Window
+# Super-Resolution Based on SRGAN with Sliding Window
 
 ## Introduction
-This is a TensorFlow implementation for Super-Resolution based on SRGAN and Sliding Window.  
+This is a TensorFlow implementation for Super-Resolution based on SRGAN with Sliding Window.  
 Ref: https://github.com/leftthomas/SRGAN
 
 ## Dataset
